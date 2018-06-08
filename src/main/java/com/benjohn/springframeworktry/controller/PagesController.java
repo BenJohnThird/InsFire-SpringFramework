@@ -11,8 +11,33 @@ public class PagesController
 	@RequestMapping(value = {"/","/home","/index"})
 	public ModelAndView index() 
 	{
-		ModelAndView mv = new ModelAndView("greetings");
-		mv.addObject("greetings","Greetings from Douceur Teams!");
+		ModelAndView mv = new ModelAndView("layout");
+		mv.addObject("title","Home");
+		mv.addObject("userClickHome",true);
+		return mv;
+	}
+	@RequestMapping(value = {"/about"})
+	public ModelAndView about() 
+	{
+		ModelAndView mv = new ModelAndView("layout");
+		mv.addObject("title","About Us");
+		mv.addObject("userClickAbout",true);
+		return mv;
+	}
+	@RequestMapping(value = {"/services.htm"})
+	public ModelAndView services() 
+	{
+		ModelAndView mv = new ModelAndView("layout");
+		mv.addObject("title","Services");
+		mv.addObject("userClickServices",true);
+		return mv;
+	}
+	@RequestMapping(value = {"/contact"})
+	public ModelAndView contact() 
+	{
+		ModelAndView mv = new ModelAndView("layout");
+		mv.addObject("title","Contact");
+		mv.addObject("userClickContact",true);
 		return mv;
 	}
 	
@@ -37,8 +62,9 @@ public class PagesController
 		{
 			greeting = "Ben John says hello";
 		}
-		ModelAndView mv = new ModelAndView("greetings");
+		ModelAndView mv = new ModelAndView("layout");
 		mv.addObject("greetings",greeting);
 		return mv;
 	}
+	
 }
