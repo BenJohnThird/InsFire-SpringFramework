@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
 //	CAROUSEL
+	alert("WOW");
 	$('.carousel').carousel({
 		  interval: 5000
 	});
@@ -16,8 +17,11 @@ $(document).ready(function(){
 		case 'Services':
 			$('#services-tab').addClass('active');
 			break;
+		case 'Threads':
+			$('#threads-tab').addClass('active');
+			break;
 		default:
-			$('#home').addClass('active');
+			$('#threads-tab').addClass('active');
 			break;
 	}
 });

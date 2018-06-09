@@ -13,12 +13,13 @@
   </properties>
   
   <dependencies>
-  	<!-- LINKING BACKEND PROEJCT -->
+  	
+  	<!-- LINKING BACKEND PROJECT -->
   	<dependency>
-  		<groupId>com.benjohn</groupId>
-		<artifactId>springframeworktrybackend</artifactId>
+		<groupId>com.benjohn</groupId>
+		<artifactId>backend</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+	</dependency>
   	
     <dependency>
       <groupId>junit</groupId>

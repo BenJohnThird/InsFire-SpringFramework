@@ -23,7 +23,7 @@
  <link href="${css}/modern-business.css" rel="stylesheet">
 <!-- FAVICON -->
 <link rel="icon" type="image/png" href="${images}/logo.png"/>
-<title>InsFire | Spring</title>
+<title>InsFire | ${title}</title>
 
 <!-- FOR ACTIVE MENU -->
 <script>
@@ -50,6 +50,10 @@
 	<!-- CONTACT -->
 	<c:if test = "${userClickContact == true}">
 		<%@ include file="contact.jsp" %>
+	</c:if>
+	<!--THREADS -->
+	<c:if test = "${userClickAllThreads == true or userClickSpecificThread == true}">
+		<%@ include file="threads.jsp" %>
 	</c:if>
 
 

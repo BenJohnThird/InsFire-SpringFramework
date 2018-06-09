@@ -1,13 +1,20 @@
 package com.benjohn.springframeworktry.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.benjohn.backend.dao.ThreadsDAO;
+import com.benjohn.backend.dto.Threads;
+
 @Controller
 public class PagesController 
 {
+	@Autowired
+	private ThreadsDAO threadsDAO;
+	
 	@RequestMapping(value = {"/","/home","/index"})
 	public ModelAndView index() 
 	{
@@ -38,6 +45,37 @@ public class PagesController
 		ModelAndView mv = new ModelAndView("layout");
 		mv.addObject("title","Contact");
 		mv.addObject("userClickContact",true);
+		return mv;
+	}
+	@RequestMapping(value = {"/threads/all/"})
+	public ModelAndView ShowAllThreads() 
+	{
+		ModelAndView mv = new ModelAndView("layout");
+		mv.addObject("title","Threads");
+		//ADDING THE AUTOWIRED LIST		
+		mv.addObject("threads",threadsDAO.listOfThreads());
+		mv.addObject("userClickAllThreads",true);
+		return mv;
+	}
+	
+	@RequestMapping(value = {"/threads/{id}/thread"})
+	public ModelAndView ShowThread(@PathVariable("id") int id) 
+	{
+		//FETCHING SPECIFIC ID		
+		Threads thread = null;
+		
+		thread = threadsDAO.get(id);
+		
+		ModelAndView mv = new ModelAndView("layout");
+		
+		mv.addObject("title",thread.getThreads_title());
+		//ADDING THE AUTOWIRED LIST		
+		
+		mv.addObject("threads",threadsDAO.listOfThreads());
+		//single thread
+		
+		mv.addObject("thread",thread);
+		mv.addObject("userClickSpecificThread",true);
 		return mv;
 	}
 	

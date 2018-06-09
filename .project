@@ -3,6 +3,7 @@
 	<name>springframeworktry</name>
 	<comment></comment>
 	<projects>
+		<project>springframeworktrybackend</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

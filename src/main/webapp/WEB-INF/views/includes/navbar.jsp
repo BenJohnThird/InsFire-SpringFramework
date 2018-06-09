@@ -17,7 +17,16 @@
             <li id = "contact-tab" class="nav-item">
               <a class="nav-link" href="${contextRoot}/contact">Contact</a>
             </li>
-            <li id = "portfolio-tab" class="nav-item dropdown">
+            <li id = "threads-tab" class="nav-item">
+              <a class="nav-link" href="${contextRoot}/threads/all/">Threads</a>
+            </li>
+            <li id = "contact-tab" class="nav-item">
+              <a class="nav-link" href="${contextRoot}/contact">Login</a>
+            </li>
+            <li id = "contact-tab" class="nav-item">
+              <a class="nav-link" href="${contextRoot}/contact">Register</a>
+            </li>
+           <!--  <li id = "portfolio-tab" class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Portfolio
               </a>
@@ -29,28 +38,7 @@
                 <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Blog
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Other Pages
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-                <a class="dropdown-item" href="faq.html">FAQ</a>
-                <a class="dropdown-item" href="404.html">404</a>
-                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-              </div>
-            </li>
+            -->
           </ul>
         </div>
       </div>
