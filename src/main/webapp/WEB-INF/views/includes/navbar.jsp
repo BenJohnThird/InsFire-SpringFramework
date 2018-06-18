@@ -20,6 +20,9 @@
             <li id = "threads-tab" class="nav-item">
               <a class="nav-link" href="${contextRoot}/threads/all/">Threads</a>
             </li>
+            <li id = "managethreads-tab" class="nav-item">
+              <a class="nav-link" href="${contextRoot}/manage/threads">Manage Threads</a>
+            </li>
             <li id = "contact-tab" class="nav-item">
               <a class="nav-link" href="${contextRoot}/contact">Login</a>
             </li>

@@ -14,8 +14,8 @@
 	
 	">
 	
-	<context:component-scan base-package = "com.benjohn.springframeworktry.controller" />
-	<context:component-scan base-package = "com.benjohn.backend.daoimpl" />
+	<context:component-scan base-package = "com.benjohn.springframeworktry" />
+	<context:component-scan base-package = "com.benjohn.backend" />
 
 
 	<bean id = "viewResolver"

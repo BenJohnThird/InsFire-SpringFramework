@@ -1,20 +1,11 @@
-<div>
+<!-- <div>
      <img src="${images}/forest-main-bg.jpg"  alt="Norway" style="width:100%;">
      <div style="border:1px solid white;">
         <h1 class = "text-white" style = "position: absolute;top: 50%;left: 50%; transform: translate(-50%, -50%); font-size:72px;">
         Welcome to InsFire
         </h1>
      </div>
-</div>
-<div class="jumbotron">
-  <h1 class="display-3">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
-</div>
+</div> !-->
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -56,145 +47,75 @@
       </div>
 
 <hr>
-    <!-- Page Content -->
-    <div class="container">
+<!-- Page Content -->
+<div class = "container">
+<!-- Features Section -->
+<div class="row">
+	<div class="col-lg-6">
+		<h2>Modern Business Features</h2>
+		<p>The Modern Business template by Start Bootstrap includes:</p>
+		<ul>
+			<li><strong>Bootstrap v4</strong></li>
+			<li>jQuery</li>
+			<li>Font Awesome</li>
+			<li>Working contact form with validation</li>
+			<li>Unstyled page elements for easy customization</li>
+		</ul>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			Corporis, omnis doloremque non cum id reprehenderit, quisquam totam
+			aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia
+			dolorum ducimus unde.</p>
+	</div>
+	<div class="col-lg-6">
+		<img class="img-fluid rounded" src="http://placehold.it/700x450"
+			alt="">
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-6">
+		<img class="img-fluid rounded" src="http://placehold.it/700x450"
+			alt="">
+	</div>
+	<div class="col-lg-6">
+		<h2>Modern Business Features</h2>
+		<p>The Modern Business template by Start Bootstrap includes:</p>
+		<ul>
+			<li><strong>Bootstrap v4</strong></li>
+			<li>jQuery</li>
+			<li>Font Awesome</li>
+			<li>Working contact form with validation</li>
+			<li>Unstyled page elements for easy customization</li>
+		</ul>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			Corporis, omnis doloremque non cum id reprehenderit, quisquam totam
+			aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia
+			dolorum ducimus unde.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-6">
+		<h2>Modern Business Features</h2>
+		<p>The Modern Business template by Start Bootstrap includes:</p>
+		<ul>
+			<li><strong>Bootstrap v4</strong></li>
+			<li>jQuery</li>
+			<li>Font Awesome</li>
+			<li>Working contact form with validation</li>
+			<li>Unstyled page elements for easy customization</li>
+		</ul>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			Corporis, omnis doloremque non cum id reprehenderit, quisquam totam
+			aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia
+			dolorum ducimus unde.</p>
+	</div>
+	<div class="col-lg-6">
+		<img class="img-fluid rounded" src="http://placehold.it/700x450"
+			alt="">
+	</div>
+</div>
+<!-- /.row -->
 
-      <h1 class="my-4">Welcome to InsFire</h1>
-
-      <!-- Marketing Icons Section -->
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <!-- Portfolio Section -->
-      <h2>Portfolio Heading</h2>
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="${images}/cross-2-kume-bryant.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project One</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top"  src="${images}/cross-2-kume-bryant.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Two</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top"  src="${images}/cross-2-kume-bryant.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Three</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Four</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Five</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Six</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <!-- Features Section -->
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Modern Business Features</h2>
-          <p>The Modern Business template by Start Bootstrap includes:</p>
-          <ul>
-            <li>
-              <strong>Bootstrap v4</strong>
-            </li>
-            <li>jQuery</li>
-            <li>Font Awesome</li>
-            <li>Working contact form with validation</li>
-            <li>Unstyled page elements for easy customization</li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        </div>
-        <div class="col-lg-6">
-          <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
+<hr>
 
       <!-- Call to Action Section -->
       <div class="row mb-4">

@@ -21,6 +21,10 @@
  <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
  <!-- Custom styles for this template -->
  <link href="${css}/modern-business.css" rel="stylesheet">
+ <!-- Custom styles for this template -->
+ <link href="${css}/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- My Own CSS -->
+ <link href="${css}/myapp.css" rel="stylesheet">
 <!-- FAVICON -->
 <link rel="icon" type="image/png" href="${images}/logo.png"/>
 <title>InsFire | ${title}</title>
@@ -28,6 +32,7 @@
 <!-- FOR ACTIVE MENU -->
 <script>
 	window.menu = '${title}';
+	window.contextRoot = '${contextRoot}';
 </script>
 </head>
 <body>
@@ -52,8 +57,16 @@
 		<%@ include file="contact.jsp" %>
 	</c:if>
 	<!--THREADS -->
-	<c:if test = "${userClickAllThreads == true or userClickSpecificThread == true}">
+	<c:if test = "${userClickAllThreads == true}">
 		<%@ include file="threads.jsp" %>
+	</c:if>
+	<!-- SPECIFIC THREAD -->
+	 <c:if test = "${userClickSpecificThread == true}">
+		<%@ include file="specificthread.jsp" %>
+	</c:if>
+	<!-- SPECIFIC THREAD -->
+	 <c:if test = "${UserClickManageThreads == true}">
+		<%@ include file="manageThreads.jsp" %>
 	</c:if>
 
 
@@ -63,6 +76,10 @@
 <!-- Bootstrap core JavaScript -->
 <script src="${js}/jquery.min.js"></script>
 <script src="${js}/bootstrap.bundle.min.js"></script>
+<!-- JQUERY DATA TABLE PLUGIN -->
+<script src="${js}/jquery.dataTables.js"></script>
+<script src="${js}/dataTables.bootstrap4.js"></script>
+
 <!-- MY OWN JS -->
 <script src="${js}/myapp.js"></script>
 
